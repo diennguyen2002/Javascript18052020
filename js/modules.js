@@ -1,6 +1,9 @@
-const pheptinh = require("./functions.js")
-// import {tong, hieu} from "./functions.js"
-
-//import { cube, foo } from './functions';
+ // cách 1
+import { pheptinh } from "./functions.js"
 console.log(pheptinh.cube(3)); // 27
-console.log(pheptinh.foo);    // 4.555806215962888
+
+
+ // cách 2
+//const { cube } = require("./functions");
+//console.log(cube(3)); // 27
+

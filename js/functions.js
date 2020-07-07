@@ -1,8 +1,13 @@
 function cube(x) {
     return x * x * x;
 }
-const foo = Math.PI + Math.SQRT2;
-module.exports = {
+
+//Cách 1
+export const pheptinh = {
     cube,
-    foo
 };
+
+// Cách 2
+// module.exports = {
+//     cube,
+// }
